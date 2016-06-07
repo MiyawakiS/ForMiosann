@@ -1,3 +1,40 @@
+飾り枠CSS参考URL
 http://wp.myafi.net/css-design-frame/
-
 http://www.nxworld.net/tips/50-css-heading-styling.html
+
+
+
+----------------使い方-------------------
+
+1. 飾り枠で装飾する際は、[テキスト]で編集作業を行う。
+
+2. index.html内の記入方法に則って、該当部分にテキストをコピペしていく。
+　　見出し部分は、<span class="s1" style="~~~"> テキスト入力 </span>
+　　タグ内にテキストを書き込む。
+　　飾り枠部分は<div style="~~~"> </div>で該当部分を囲む。
+
+　　注意点としまして、[見出し]と[枠]の間に改行コード
+   (<p class="p1"><span class="s1"> </span></p>)を挿入する。
+
+3. [ビジュアル]で、編集内容が反映されているか逐次確認を行う。
+
+
+(使用例)
+↓
+<p class="p1"><span class="s1" style="margin-bottom: 20px; padding: .25em 0 .5em .75em; border-left: 6px solid #1a4de8; border-bottom: 1px solid #c6e8f1;">
+講師の鷹尾氏より参加者のみなさまへのメッセージ</span></p>　・・・見出し部分装飾
+<p class="p1"><span class="s1"> </span></p>　・・・改行
+
+<div style="padding: 20px; background: #fff; box-shadow: 0 0 50px #add8e6 inset, 5px 5px 0 #cecece;
+-moz-box-shadow: 0 0 50px #add8e6 inset, 5px 5px 0 #cecece; -webkit-box-shadow: 0 0 50px #add8e6 inset, 5px 5px 0 #cecece;">　・・・飾り枠開始部分
+<p class="p1">恋愛交渉術や、交渉倫理観、弊社のビジネスモデルについてまで</p>
+<p class="p1">懇親会にて問い合わせ殺到のような格好となりました。</p>
+<p class="p1">お気持ちに感謝申し上げます。</p>
+<p class="p1">ビジネスシーンで感じる人や場に対する『違和感』をぜひ感じていきましょう！</p>
+<p class="p1">お相手の立場にたって物を考えることが合意形成全般のコツなのですが、</p>
+<p class="p1">考えるきっかけはその違和感がもたらしてくれます。</p>
+<p class="p1">ぜひどうぞ。</p>
+
+</div>　・・・飾り枠終了部分
+
+<p class="p1"><span class="s1"> </span></p>  ・・・改行
